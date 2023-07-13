@@ -9,8 +9,7 @@ function Subcribe() {
             <input className='sm:p-3 inp rounded-3xl mr-4 text-black text-center' type="email" placeholder='Input your email'  />
             <button className='btnnn'> Sign Up </button>
          </div>
-         <div className='flex justify-center  py-2 gap-1  '>
-             <input  type='checkbox' className='check' />
+         <div className='flex justify-center  py-2   '>
              <p className='fzp'> Yes, I agree to receive email communications from Defi. </p>
          </div>
     </div>

@@ -16,7 +16,7 @@ function Header() {
             <h1 className='fz'>DEFI</h1>
           </div>
           <div className='hidden md:flex'>
-            <ul className='flex text-white items-center'>
+            <ul className='flex text-white items-center gap-5'>
               <li><a href="">Plateform</a></li>
               <li><a href="">Developers</a></li>
               <li><a href="">Community</a></li>
@@ -47,12 +47,12 @@ function Header() {
           </div>
           {/* Mobile menu */}
           <div className={nav ? 'w-full bg-black text-white absolute top-[90px] left-0  flex justify-center text-center  md:hidden ' : "absolute left-[-100%]"}>
-            <ul className=''>
+            <ul className=' flex flex-col gap-5'>
               <li><a href="" className='sm:text-2xl fz'>Plateform</a></li>
               <li><a href="" className='sm:text-2xl fz'>Developers</a></li>
               <li><a href="" className='sm:text-2xl fz'>Community</a></li>
               <li><a href="" className='sm:text-2xl fz'>About</a></li>
-              <button className='m-8' >
+              <button className='m-7' >
                 Use Defi
               </button>
             </ul>

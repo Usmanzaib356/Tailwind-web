@@ -22,10 +22,7 @@
 
 
 
-    li {
-        @apply p-4
-    }
-
+    
     button {
         @apply bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] py-3 px-7 rounded-3xl
     }
@@ -57,9 +54,6 @@
         padding-top: 4px;
         padding-bottom: 4px;
     }
-
-    
-
 
     .pdm {
         padding-top: 4px;

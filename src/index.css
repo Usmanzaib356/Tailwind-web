@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+    --primary-blue: #00d8ff;
+    --primary-purple: #6a00ff;
+}
+
+
+.blue {
+    color: var(--primary-blue);
+}
+
+
+@layer base {
+    h1 {
+        @apply text-4xl font-bold
+    }
+
+
+
+    li {
+        @apply p-4
+    }
+
+    button {
+        @apply bg-gradient-to-r from-[var(--primary-purple)] to-[var(--primary-blue)] py-3 px-7 rounded-3xl
+    }
+}
+
+
+@media screen and (max-width : 480px) {
+
+    /* font Size */
+    .fz {
+        font-size: 24px;
+
+    }
+
+    .fzp {
+        font-size: 16px;
+        list-style: 14px;
+    }
+
+    /* padding */
+
+
+    .inp {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .btnnn {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .check {
+        margin-bottom: 18px;
+    }
+
+
+    .pdm {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+
+
+}
